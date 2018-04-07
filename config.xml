@@ -96,7 +96,7 @@
     <access origin="https://connect.facebook.net" />
     <access origin="https://facebook.net" />
     <access origin="https://facebook.com" />
-    <!--<access origin="*" />-->
+    <access origin="*" />
 
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
