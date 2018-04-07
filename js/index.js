@@ -102,6 +102,7 @@ function onDeviceReady() {
         });
     });
     $(document).on('submit',"#login-form",function(e){
+       alert("asda");
         e.preventDefault();
         $.ajax({
             type: "POST",
