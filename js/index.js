@@ -114,6 +114,7 @@ function onDeviceReady() {
                     window.sessionStorage.setItem("userData", JSON.stringify(msg.result));
                 }
             }
+
         });
     })
 }
