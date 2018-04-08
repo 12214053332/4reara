@@ -116,7 +116,7 @@ function initMap(latitudeData,longitudeData) {
             latLng: new google.maps.LatLng(latitudeData,longitudeData), name: "location", description: "",imageSrc:"img/currentLocation.png",labelSrc:"img/currentLocation.png"
         }
     ]);
-    $("#getMyLocation").removeAttr('disabled');
+ //   $("#getMyLocation").removeAttr('disabled');
 }
 function showPosition(position){
     /*latitude=position.coords.latitude.toString().slice(0,6);
@@ -126,6 +126,7 @@ function showPosition(position){
     initMap(latitude,longitude);
 };
 function getLocation(){
+    console.log('start to get location ');
     /*if (navigator.geolocation) {
         navigator.geolocation.watchPosition(showPosition);
     } else {
@@ -134,7 +135,7 @@ function getLocation(){
         longitude=31.25;
         initMap(latitude,longitude);
     }*/
-    $("#getMyLocation").attr('disabled','disabled');
+  //  $("#getMyLocation").attr('disabled','disabled');
     navigator.geolocation.getCurrentPosition(onSuccess, onError);
 
 
