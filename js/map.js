@@ -154,7 +154,8 @@ function onError() {
     longitude=31.25;
     initMap(latitude,longitude);
 }
+/*
 getLocation();
 $(document).on('click','#getMyLocation',function(){
     getLocation();
-});
+});*/

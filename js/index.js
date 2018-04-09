@@ -141,14 +141,20 @@ function onDeviceReady() {
     })
 }
 
+$(document).on('click','#getMyLocation',function(){
+    console.log("start get location");
+    navigator.geolocation.getCurrentPosition(onSuccess, onError);
+});
+
  function onSuccess(position){
+     console.log("succsess get location");
     var longitude = position.coords.longitude;
     var latitude = position.coords.latitude;
     var latLong = new google.maps.LatLng(latitude, longitude);
 
     var mapOptions = {
         center: latLong,
-        zoom: 13,
+        zoom: 15,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
 
