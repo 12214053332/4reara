@@ -85,10 +85,15 @@ function updateStatusCallback(response) {
 }
 function onDeviceReady() {
     console.log('Device Is Ready');
+
+    console.log("start get location ");
+    navigator.geolocation.getCurrentPosition(onSuccess, onError);
+
     cordova.plugins.locationAccuracy.canRequest(function(canRequest){
         if(canRequest){
             cordova.plugins.locationAccuracy.request(function (success){
                 console.log("Successfully requested accuracy: "+success.message);
+
             }, function (error){
                 console.error("Accuracy request failed: error code="+error.code+"; error message="+error.message);
                 if(error.code !== cordova.plugins.locationAccuracy.ERROR_USER_DISAGREED){
@@ -99,6 +104,7 @@ function onDeviceReady() {
             }, cordova.plugins.locationAccuracy.REQUEST_PRIORITY_HIGH_ACCURACY);
         }
     });
+
     $(document).on('click',"#fb_login",facebookLogin);
     $(document).on('submit',"#register-form",function(e){
         e.preventDefault();
@@ -115,6 +121,8 @@ function onDeviceReady() {
             }
         });
     });
+
+
     $(document).on('submit',"#login-form",function(e){
        alert("asda");
         e.preventDefault();
@@ -132,6 +140,31 @@ function onDeviceReady() {
         });
     })
 }
+
+ function onSuccess(position){
+    var longitude = position.coords.longitude;
+    var latitude = position.coords.latitude;
+    var latLong = new google.maps.LatLng(latitude, longitude);
+
+    var mapOptions = {
+        center: latLong,
+        zoom: 13,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+    var marker = new google.maps.Marker({
+        position: latLong,
+        map: map,
+        title: 'my location'
+    });
+}
+
+ function onError (error){
+    alert("the code is " + error.code + ". \n" + "message: " + error.message);
+}
+
 function facebookLogin(){
     FB.login(function(response){
         if(response.status=='connected'){
