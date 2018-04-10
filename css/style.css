@@ -2035,3 +2035,7 @@ a:hover{
 #blog-details-page #reviews{
 	margin-top:60px;
 }
+
+.position-initial{
+	position: initial!important;
+}

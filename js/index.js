@@ -9,6 +9,7 @@ window.sessionStorage.clear();//Clear storage
 var userData = window.sessionStorage.getItem("userData")
 console.log(userData);
 
+
 var errorMessages={
     "email_exist":"The Email Is Already Exist",
     "phone_exist":"The Phone Is Already Exist",
@@ -106,7 +107,77 @@ function onDeviceReady() {
     });
 
     $(document).on('click',"#fb_login",facebookLogin);
-    $(document).on('submit',"#register-form",function(e){
+    var registerValidator = $("#register-form").validate({
+        errorPlacement: function(error, element) {
+            // Append error within linked label
+            /*$( element )
+                .closest( "form" )
+                .find( "label[for='" + element.attr( "id" ) + "']" )
+                .append( error );*/
+            //$(element).parent().parent().addClass('has-error');
+
+        },
+        highlight: function(element) {
+
+            $(element).closest('.form-group').addClass('has-error');
+
+        },
+        unhighlight: function(element) {
+
+            $(element).closest('.form-group').removeClass('has-error');
+
+        },
+        errorElement: "span",
+        rules : {
+
+            name : {
+                required:true,
+                minlength : 5
+            },
+            email : {
+                required:true,
+                minlength : 5
+            },
+            phone : {
+                required:true,
+                minlength : 5
+            },
+            password : {
+                required:true,
+                minlength : 5
+            },
+            confirm_password : {
+                required:true,
+                minlength : 5,
+                equalTo:"#password"
+            }
+        },
+        messages: {
+        },
+        submitHandler: function() {
+            //alert('start');
+            //$("#charge-btn").attr("disabled", true);
+            $(".loader").show();
+            $.ajax({
+                type: "POST",
+                url: makeURL('foreraa_users'),
+                data: $("#register-form").serialize(),
+                success: function (msg) {
+                    getMessages(msg,"#response")
+                    if(msg.success){
+                        $("#register-form #social").val('no');
+                        $("#register-form")[0].reset();
+                    }
+                    $(".loader").hide();
+                }
+            });
+        }
+    });
+    $(".cancel").click(function() {
+        registerValidator.resetForm();
+    });
+
+    /*$(document).on('submit',"#register-form",function(e){
         e.preventDefault();
         $.ajax({
             type: "POST",
@@ -120,11 +191,66 @@ function onDeviceReady() {
                 }
             }
         });
+    });*/
+    var loginValidator = $("#login-form").validate({
+        errorPlacement: function(error, element) {
+            // Append error within linked label
+            /*$( element )
+                .closest( "form" )
+                .find( "label[for='" + element.attr( "id" ) + "']" )
+                .append( error );*/
+            //$(element).parent().parent().addClass('has-error');
+        },
+        highlight: function(element) {
+
+            $(element).closest('.form-group').addClass('has-error');
+
+        },
+        unhighlight: function(element) {
+
+            $(element).closest('.form-group').removeClass('has-error');
+
+        },
+        errorElement: "span",
+        rules : {
+
+            phone : {
+                required:true,
+                minlength : 5
+            },
+            password : {
+                required:true,
+                minlength : 5
+            }
+        },
+        messages: {
+        },
+        submitHandler: function() {
+            //alert('start');
+            //$("#charge-btn").attr("disabled", true);
+            $(".loader").show();
+            $.ajax({
+                type: "POST",
+                url: makeURL('foreraa_users/login'),
+                data: $("#login-form").serialize(),
+                success: function (msg) {
+                    getMessages(msg,"#response")
+                    $(".loader").hide();
+                    if(msg.success){
+                        window.sessionStorage.setItem("userData", JSON.stringify(msg.result));
+                        window.location.href="map.html";
+                    }
+                }
+
+            });
+        }
+    });
+    $(".cancel").click(function() {
+        loginValidator.resetForm();
     });
 
-
-    $(document).on('submit',"#login-form",function(e){
-       alert("asda");
+    /*$(document).on('submit',"#login-form",function(e){
+       //alert("asda");
         e.preventDefault();
         $.ajax({
             type: "POST",
@@ -138,12 +264,28 @@ function onDeviceReady() {
             }
 
         });
-    })
+    })*/
 }
 
 $(document).on('click','#getMyLocation',function(){
     console.log("start get location");
     navigator.geolocation.getCurrentPosition(onSuccess, onError);
+});
+$(document).on('click','#getAllServices',function(){
+    $(".loader").show();
+    $.ajax({
+        type: "GET",
+        url: makeURL('foreraa_services'),
+        success: function (msg) {
+            //getMessages(msg,"#response")
+            $(".loader").hide();
+            if(msg.success){
+                window.sessionStorage.setItem("servicesData", JSON.stringify(msg.result));
+                window.location.href="services.html"
+            }
+        }
+
+    });
 });
 
  function onSuccess(position){
