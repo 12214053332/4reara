@@ -55,7 +55,7 @@ html,body{
 }
 
 p,ul,a,.btn,span,input,select,textarea,label, table, blockquote, small, .cart-item .total, .cart-info h4, .order-name h3{
-	font-family: 'Open Sans',sans-serif;
+	font-family: cocon,'Open Sans',sans-serif;
 }
 
 p,ul{
