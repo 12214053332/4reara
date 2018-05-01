@@ -35,6 +35,7 @@ if(serviceData){
 
 }
 function serviceSearchOnGoogleMap(serviceData) {
+
     serviceData=serviceData;
     if(serviceData.type=='service'){
         console.log(serviceData)
@@ -61,7 +62,8 @@ function serviceSearchOnGoogleMap(serviceData) {
         service.nearbySearch({
             location: pyrmont,
             radius: 20000,
-            type: [serviceData.google_key],
+            /*type: [serviceData.google_key],*/
+            keyword:[serviceData.google_key],
             language:lang,
             rankby:'distance',
         }, function(response,request){
