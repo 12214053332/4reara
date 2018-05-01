@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="zxx">
     
-
+<!-- Mirrored from kiswa.net/themes/star-restaurant/orange-restaurant/restaurant.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Apr 2018 08:27:01 GMT -->
 <head>
-        <title>Menu Grid</title>
+        <title>Restaurant</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="icon" href="images/favicon.png" type="image/x-icon">
@@ -21,14 +21,19 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/orange.css">
         
+        <!-- Flex Slider Stylesheets -->	
+        <link rel="stylesheet" href="css/flexslider.css">
+        
+        <!-- OWL Stylesheets -->	
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
     </head>
 	
     <body class="page-body">
     	
         <!--====== LOADER =====-->
         <div class="loader"></div>
-        
-        
+
         <!--============ SIDE-NAV =============-->
         <div class="sidenav-content">
             <div id="mySidenav" class="sidenav" >
@@ -48,17 +53,17 @@
                     </div><!-- end sidenav-closebtn -->
                     
                     <div class="list-group panel">
-                        <a href="#homepage-links" class="list-group-item" data-toggle="collapse" data-parent="#main-menu"><span><i class="fa fa-home sidebar-icon"></i></span>Homepages<span><i class="fa fa-caret-down arrow"></i></span></a>
+                        <a href="#homepage-links" class="list-group-item active" data-toggle="collapse" data-parent="#main-menu"><span><i class="fa fa-home sidebar-icon"></i></span>Homepages<span><i class="fa fa-caret-down arrow"></i></span></a>
                         <div class="collapse sub-menu" id="homepage-links">
-                            <a href="index.html" class="list-group-item">Restaurant</a>
+                            <a href="#" class="list-group-item active">Restaurant</a>
                             <a href="pizza.html" class="list-group-item">Pizza</a>
                             <a href="bakery.html" class="list-group-item">Bakery</a>
                             <a href="coffee.html" class="list-group-item">Coffee</a>
                         </div><!-- end sub-menu -->
                         
-                        <a href="#menu-links" class="list-group-item active" data-toggle="collapse" data-parent="#main-menu"><span><i class="fa fa-utensils sidebar-icon"></i></span>Menu<span><i class="fa fa-caret-down arrow"></i></span></a>
+                        <a href="#menu-links" class="list-group-item" data-toggle="collapse" data-parent="#main-menu"><span><i class="fa fa-utensils sidebar-icon"></i></span>Menu<span><i class="fa fa-caret-down arrow"></i></span></a>
                         <div class="collapse sub-menu" id="menu-links">
-                            <a href="#" class="list-group-item active">Menu Grid</a>
+                            <a href="menu-grid.html" class="list-group-item">Menu Grid</a>
                             <a href="menu-list.html" class="list-group-item">Menu List</a>
                             <a href="menu-detail.html" class="list-group-item">Menu Detail</a>
                         </div><!-- end sub-menu -->
@@ -204,7 +209,7 @@
         
         <div class="canvas">
             
-            <div class="overlay-black"></div>
+			<div class="overlay-black"></div>
             
             <!--========= HEADER =========-->
             <div class="header">
@@ -227,33 +232,110 @@
             </div><!-- end header -->
             
             
-            <!--========= PAGE-COVER =========-->
-            <div class="page-cover">
-                <div class="container-fluid">
-                    <h3><span class="cover-left-icon pull-left"><i class="fa fa-th-large"></i></span>Menu Grid<span class="cover-right-icon pull-right"><i class="fa fa-th-large"></i></span></h3>
-                </div><!-- end container-fluid -->
-            </div><!-- end page-cover -->
+            <!--=========== SLIDER ==========-->
+            <div class="flexslider" id="slider">
+                <ul class="slides">
+        
+                    <li class="item-1" style="background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/restaurant-slider-1.jpg'); background-size:cover;">                   
+                        <div class="container text-center meta">
+                            <p>Delicious Place</p>
+                            <h1>Its Time to Taste</h1>
+                            <button class="btn btn-orange btn-radius">Read More</button>
+                        </div>  
+                    </li><!-- end item-1 -->
+        
+                    <li class="item-2" style="background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/restaurant-slider-2.jpg'); background-size:cover;">
+                        <div class="container text-center meta">
+                            <p>Delicious Place</p>
+                            <h1>Its Time to Taste</h1>
+                            <button class="btn btn-orange btn-radius">Read More</button>
+                        </div>
+                    </li><!-- end item-2 -->
+                   
+                </ul>
+            </div><!-- end flexslider -->
             
-         
-            <!--=================== PAGE-WRAPPER ================-->
-            <section class="page-wrapper innerpage-section-padding">
-                <div id="menu-page" class="menu-grid">
-                    <div class="container-fluid text-center menu">
-                        <div class="innerpage-heading">
-                            <h3>Delicious Menu</h3>
-                        </div><!-- end innerpage-heading -->
+            
+            <!--======= BANNER-1 ========-->
+            <section id="banner-1" class="">
+                <div class="container-fluid  text-center overlay section-padding">
+                    <ul class="list-unstyled">
+                        <li><span><i class="far fa-clock"></i>Mon - Fri :</span> 10:00 am - 11:00 pm</li>
+                        <li><span><i class="far fa-clock"></i>Sat - Sun :</span> 11:00 am - 08:00 pm</li>
+                    </ul>
+                </div><!-- end container-fluid -->
+            </section><!-- end banner-1 -->
+            
+            
+            <!--=============== ABOUT-US ===============-->
+            <section id="about-us" class="section-padding">
+                <div class="container-fluid text-center">
+                    <h3 class="page-heading">About Us</h3>
+                    <hr class="page-heading-line" />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas blandit faucibus mattis. Donec pharetra odio convalli. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas blandit faucibus mattis. Donec pharetra odio convalli.</p>
+                </div><!-- end container-fluid -->
+            </section><!-- end about-us -->
+            
+            
+            <!--=============== SERVICES ===============-->
+            <section id="services" class="section-padding">
+                <div class="container-fluid">
+                
+                    <div class="owl-carousel owl-theme" id="owl-services">
+                        <div class="item">
+                            <div class="service-block">
+                                <span><i class="fa fa-thumbs-up"></i></span>
+                                <h4>Quality Serve</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div><!-- end service-block -->
+                        </div><!-- end item -->
                         
-                        <ul class="nav nav-tabs">
-                            <li class="active"><a href="#breakfast-dishes" data-toggle="tab">Breakfast</a></li>
-                            <li><a href="#lunch-dishes" data-toggle="tab">Lunch</a></li>
-                            <li><a href="#dinner-dishes" data-toggle="tab">Dinner</a></li>
-                        </ul>
+                        <div class="item">
+                            <div class="service-block">
+                                <span><i class="fa fa-user"></i></span>
+                                <h4>Best Chefs</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div><!-- end service-block -->
+                        </div><!-- end item -->
                         
-                        <div class="tab-content">
-                                        
-                            <div id="breakfast-dishes" class="tab-pane fade in active">
-                                <ul class="list-unstyled">
-                                    <li>
+                        <div class="item">
+                            <div class="service-block">
+                                <span><i class="fa fa-rocket"></i></span>
+                                <h4>Free Deilvery</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div><!-- end service-block -->
+                        </div><!-- end item -->
+                        
+                        <div class="item">
+                            <div class="service-block">
+                                <span><i class="fa fa-building"></i></span>
+                                <h4>Clean Spot</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div><!-- end service-block -->
+                        </div><!-- end item -->
+                    </div><!-- end owl-services -->
+                    
+                </div><!-- end container -->
+            </section><!-- end services -->
+                
+                
+            <!--============= MENU ============-->    
+            <section class="menu section-padding">
+                <div class="container-fluid text-center">
+                    <h3 class="page-heading">Delicious Menu</h3>
+                    <hr class="page-heading-line" />
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#breakfast-dishes" data-toggle="tab">Breakfast</a></li>
+                        <li><a href="#lunch-dishes" data-toggle="tab">Lunch</a></li>
+                        <li><a href="#dinner-dishes" data-toggle="tab">Dinner</a></li>
+                    </ul>
+                    
+                    <div class="tab-content">
+                                    
+                        <div id="breakfast-dishes" class="tab-pane fade in active">
+                            <div class="owl-carousel owl-theme owl-menu">
+                                <div>
+                                    <div class="grid">
                                         <div class="dish-list">
                                             <a href="menu-detail.html"><img src="images/dish-breakfast-1.png" class="img-responsive" alt="dish-menu" /></a>
                                             <div class="dish-list-text">
@@ -263,9 +345,9 @@
                                                 <button class="btn">Add to cart<span><i class="fa fa-shopping-cart"></i></span></button>
                                             </div><!-- end dish-list-text -->
                                         </div><!-- end dish-list -->
-                                    </li>
+                                    </div><!-- end grid -->
                                     
-                                    <li>
+                                    <div class="grid">
                                         <div class="dish-list">
                                             <a href="menu-detail.html"><img src="images/dish-breakfast-2.png" class="img-responsive" alt="dish-menu" /></a>
                                             <div class="dish-list-text">
@@ -275,9 +357,11 @@
                                                 <button class="btn">Add to cart<span><i class="fa fa-shopping-cart"></i></span></button>
                                             </div><!-- end dish-list-text -->
                                         </div><!-- end dish-list -->
-                                    </li>
-    
-                                    <li>
+                                    </div><!-- end grid -->
+                                </div>
+                                
+                                <div>
+                                    <div class="grid">
                                         <div class="dish-list">
                                             <a href="menu-detail.html"><img src="images/dish-breakfast-3.png" class="img-responsive" alt="dish-menu" /></a>
                                             <div class="dish-list-text">
@@ -287,9 +371,9 @@
                                                 <button class="btn">Add to cart<span><i class="fa fa-shopping-cart"></i></span></button>
                                             </div><!-- end dish-list-text -->
                                         </div><!-- end dish-list -->
-                                    </li>
+                                    </div><!-- end grid -->
                                     
-                                    <li>
+                                    <div class="grid">
                                         <div class="dish-list">
                                             <a href="menu-detail.html"><img src="images/dish-breakfast-4.png" class="img-responsive" alt="dish-menu" /></a>
                                             <div class="dish-list-text">
@@ -299,9 +383,11 @@
                                                 <button class="btn">Add to cart<span><i class="fa fa-shopping-cart"></i></span></button>
                                             </div><!-- end dish-list-text -->
                                         </div><!-- end dish-list -->
-                                    </li>
-                                    
-                                    <li>
+                                    </div><!-- end grid -->
+                                </div>
+                                
+                                <div>
+                                    <div class="grid">
                                         <div class="dish-list">
                                             <a href="menu-detail.html"><img src="images/dish-breakfast-5.png" class="img-responsive" alt="dish-menu" /></a>
                                             <div class="dish-list-text">
@@ -311,9 +397,9 @@
                                                 <button class="btn">Add to cart<span><i class="fa fa-shopping-cart"></i></span></button>
                                             </div><!-- end dish-list-text -->
                                         </div><!-- end dish-list -->
-                                    </li>
+                                    </div><!-- end grid -->
                                     
-                                    <li>
+                                    <div class="grid">
                                         <div class="dish-list">
                                             <a href="menu-detail.html"><img src="images/dish-breakfast-6.png" class="img-responsive" alt="dish-menu" /></a>
                                             <div class="dish-list-text">
@@ -323,13 +409,15 @@
                                                 <button class="btn">Add to cart<span><i class="fa fa-shopping-cart"></i></span></button>
                                             </div><!-- end dish-list-text -->
                                         </div><!-- end dish-list -->
-                                    </li>
-                                </ul>
-                            </div><!-- end breakfast-dishes -->
-                            
-                            <div id="lunch-dishes" class="tab-pane fade">
-                                <ul class="list-unstyled">
-                                    <li>
+                                    </div><!-- end grid -->
+                                </div>
+                            </div><!-- end owl-menu -->
+                        </div><!-- end breakfast-dishes -->
+                        
+                        <div id="lunch-dishes" class="tab-pane fade">
+                            <div class="owl-carousel owl-theme owl-menu">
+                                <div>
+                                    <div class="grid">
                                         <div class="dish-list">
                                             <a href="menu-detail.html"><img src="images/dish-lunch-1.png" class="img-responsive" alt="dish-menu" /></a>
                                             <div class="dish-list-text">
@@ -339,9 +427,9 @@
                                                 <button class="btn">Add to cart<span><i class="fa fa-shopping-cart"></i></span></button>
                                             </div><!-- end dish-list-text -->
                                         </div><!-- end dish-list -->
-                                    </li>
+                                    </div><!-- end grid -->
                                     
-                                    <li>
+                                    <div class="grid">
                                         <div class="dish-list">
                                             <a href="menu-detail.html"><img src="images/dish-lunch-2.png" class="img-responsive" alt="dish-menu" /></a>
                                             <div class="dish-list-text">
@@ -351,9 +439,11 @@
                                                 <button class="btn">Add to cart<span><i class="fa fa-shopping-cart"></i></span></button>
                                             </div><!-- end dish-list-text -->
                                         </div><!-- end dish-list -->
-                                    </li>
-    
-                                    <li>
+                                    </div><!-- end grid -->
+                                </div>
+                                
+                                <div>
+                                    <div class="grid">
                                         <div class="dish-list">
                                             <a href="menu-detail.html"><img src="images/dish-lunch-3.png" class="img-responsive" alt="dish-menu" /></a>
                                             <div class="dish-list-text">
@@ -363,9 +453,9 @@
                                                 <button class="btn">Add to cart<span><i class="fa fa-shopping-cart"></i></span></button>
                                             </div><!-- end dish-list-text -->
                                         </div><!-- end dish-list -->
-                                    </li>
+                                    </div><!-- end grid -->
                                     
-                                    <li>
+                                    <div class="grid">
                                         <div class="dish-list">
                                             <a href="menu-detail.html"><img src="images/dish-lunch-4.png" class="img-responsive" alt="dish-menu" /></a>
                                             <div class="dish-list-text">
@@ -375,9 +465,11 @@
                                                 <button class="btn">Add to cart<span><i class="fa fa-shopping-cart"></i></span></button>
                                             </div><!-- end dish-list-text -->
                                         </div><!-- end dish-list -->
-                                    </li>
-                                    
-                                    <li>
+                                    </div><!-- end grid -->
+                                </div>
+                                
+                                <div>
+                                    <div class="grid">
                                         <div class="dish-list">
                                             <a href="menu-detail.html"><img src="images/dish-lunch-5.png" class="img-responsive" alt="dish-menu" /></a>
                                             <div class="dish-list-text">
@@ -387,9 +479,9 @@
                                                 <button class="btn">Add to cart<span><i class="fa fa-shopping-cart"></i></span></button>
                                             </div><!-- end dish-list-text -->
                                         </div><!-- end dish-list -->
-                                    </li>
+                                    </div><!-- end grid -->
                                     
-                                    <li>
+                                    <div class="grid">
                                         <div class="dish-list">
                                             <a href="menu-detail.html"><img src="images/dish-lunch-6.png" class="img-responsive" alt="dish-menu" /></a>
                                             <div class="dish-list-text">
@@ -399,15 +491,17 @@
                                                 <button class="btn">Add to cart<span><i class="fa fa-shopping-cart"></i></span></button>
                                             </div><!-- end dish-list-text -->
                                         </div><!-- end dish-list -->
-                                    </li>
-                                </ul>
-                            </div><!-- end lunch-dishes -->
-                            
-                            <div id="dinner-dishes" class="tab-pane fade">
-                                <ul class="list-unstyled">
-                                    <li>
+                                    </div><!-- end grid -->
+                                </div>
+                            </div><!-- end owl-menu -->
+                        </div><!-- end lunch-dishes -->
+                        
+                        <div id="dinner-dishes" class="tab-pane fade">
+                            <div class="owl-carousel owl-theme owl-menu">
+                                <div>
+                                    <div class="grid">
                                         <div class="dish-list">
-                                            <a href="menu-detail.html"><img src="images/dish-dinner-1.png" class="img-responsive" alt="dish-menu" /></a>
+                                            <a href="menu-detail.html"><img src="images/dish-breakfast-1.png" class="img-responsive" alt="dish-menu" /></a>
                                             <div class="dish-list-text">
                                                 <h4><a href="menu-detail.html">Dinner-1</a></h4>
                                                 <h5>$45</h5>
@@ -415,11 +509,11 @@
                                                 <button class="btn">Add to cart<span><i class="fa fa-shopping-cart"></i></span></button>
                                             </div><!-- end dish-list-text -->
                                         </div><!-- end dish-list -->
-                                    </li>
+                                    </div><!-- end grid -->
                                     
-                                    <li>
+                                    <div class="grid">
                                         <div class="dish-list">
-                                            <a href="menu-detail.html"><img src="images/dish-dinner-2.png" class="img-responsive" alt="dish-menu" /></a>
+                                            <a href="menu-detail.html"><img src="images/dish-breakfast-2.png" class="img-responsive" alt="dish-menu" /></a>
                                             <div class="dish-list-text">
                                                 <h4><a href="menu-detail.html">Dinner-2</a></h4>
                                                 <h5>$45</h5>
@@ -427,11 +521,13 @@
                                                 <button class="btn">Add to cart<span><i class="fa fa-shopping-cart"></i></span></button>
                                             </div><!-- end dish-list-text -->
                                         </div><!-- end dish-list -->
-                                    </li>
-    
-                                    <li>
+                                    </div><!-- end grid -->
+                                </div>
+                                
+                                <div>
+                                    <div class="grid">
                                         <div class="dish-list">
-                                            <a href="menu-detail.html"><img src="images/dish-dinner-3.png" class="img-responsive" alt="dish-menu" /></a>
+                                             <a href="menu-detail.html"><img src="images/dish-breakfast-3.png" class="img-responsive" alt="dish-menu" /></a>
                                             <div class="dish-list-text">
                                                 <h4><a href="menu-detail.html">Dinner-3</a></h4>
                                                 <h5>$45</h5>
@@ -439,11 +535,11 @@
                                                 <button class="btn">Add to cart<span><i class="fa fa-shopping-cart"></i></span></button>
                                             </div><!-- end dish-list-text -->
                                         </div><!-- end dish-list -->
-                                    </li>
+                                    </div><!-- end grid -->
                                     
-                                    <li>
+                                    <div class="grid">
                                         <div class="dish-list">
-                                            <a href="menu-detail.html"><img src="images/dish-dinner-4.png" class="img-responsive" alt="dish-menu" /></a>
+                                             <a href="menu-detail.html"><img src="images/dish-breakfast-4.png" class="img-responsive" alt="dish-menu" /></a>
                                             <div class="dish-list-text">
                                                 <h4><a href="menu-detail.html">Dinner-4</a></h4>
                                                 <h5>$45</h5>
@@ -451,11 +547,13 @@
                                                 <button class="btn">Add to cart<span><i class="fa fa-shopping-cart"></i></span></button>
                                             </div><!-- end dish-list-text -->
                                         </div><!-- end dish-list -->
-                                    </li>
-                                    
-                                    <li>
+                                    </div><!-- end grid -->
+                                </div>
+                                
+                                <div>
+                                    <div class="grid">
                                         <div class="dish-list">
-                                            <a href="menu-detail.html"><img src="images/dish-dinner-5.png" class="img-responsive" alt="dish-menu" /></a>
+                                             <a href="menu-detail.html"><img src="images/dish-breakfast-5.png" class="img-responsive" alt="dish-menu" /></a>
                                             <div class="dish-list-text">
                                                 <h4><a href="menu-detail.html">Dinner-5</a></h4>
                                                 <h5>$45</h5>
@@ -463,11 +561,11 @@
                                                 <button class="btn">Add to cart<span><i class="fa fa-shopping-cart"></i></span></button>
                                             </div><!-- end dish-list-text -->
                                         </div><!-- end dish-list -->
-                                    </li>
+                                    </div><!-- end grid -->
                                     
-                                    <li>
+                                    <div class="grid">
                                         <div class="dish-list">
-                                            <a href="menu-detail.html"><img src="images/dish-dinner-6.png" class="img-responsive" alt="dish-menu" /></a>
+                                             <a href="menu-detail.html"><img src="images/dish-breakfast-6.png" class="img-responsive" alt="dish-menu" /></a>
                                             <div class="dish-list-text">
                                                 <h4><a href="menu-detail.html">Dinner-6</a></h4>
                                                 <h5>$45</h5>
@@ -475,14 +573,114 @@
                                                 <button class="btn">Add to cart<span><i class="fa fa-shopping-cart"></i></span></button>
                                             </div><!-- end dish-list-text -->
                                         </div><!-- end dish-list -->
-                                    </li>
-                                </ul>
-                            </div><!-- end dinner-dishes -->
-                            
-                        </div><!-- end tab-content -->
-                    </div><!-- end container-fluid -->
-                </div><!-- end menu-page -->
-            </section><!-- end page-wrapper -->
+                                    </div><!-- end grid -->
+                                </div>
+                            </div><!-- end owl-menu -->
+                        </div><!-- end dinner-dishes -->
+                        
+                    </div><!-- end tab-content -->
+                </div><!-- end container-fluid -->
+            </section><!-- end menu -->
+            
+            
+            <!--=============== TESTIMONIAL ===============-->
+            <section id="testimonial" class="section-padding text-white"> 
+                <div class="container-fluid">
+                    <h3 class="page-heading white-heading">Testimonials</h3>
+                    <hr class="page-heading-line white-line" />
+                    <div class="owl-carousel owl-theme" id="owl-testimonial">
+                    
+                        <div class="item">
+                            <div class="review-block">
+                                <div class="reviewer-text">
+                                    <ul class="list-unstyled list-inline star-rating">
+                                        <li><span><i class="fa fa-star"></i></span></li>
+                                        <li><span><i class="fa fa-star"></i></span></li>
+                                        <li><span><i class="fa fa-star"></i></span></li>
+                                        <li><span><i class="fa fa-star"></i></span></li>
+                                        <li><span><i class="fa fa-star"></i></span></li>
+                                    </ul>
+                                    
+                                    <blockquote> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad.		
+                                    <small>Andrew</small>
+                                    </blockquote>
+                                </div><!-- end reviewer-text -->  
+                                                                   
+                                <div class="reviewer-img">
+                                    <img src="images/reviewer-1.jpg" alt="reviewer-image" class="img-circle">
+                                </div><!-- end reviewer-img -->                                 
+                            </div><!-- end review-block -->
+                        </div><!-- end item -->
+    
+                        <div class="item">
+                            <div class="review-block">
+                                <div class="reviewer-text">
+                                    <ul class="list-unstyled list-inline star-rating">
+                                        <li><span><i class="fa fa-star"></i></span></li>
+                                        <li><span><i class="fa fa-star"></i></span></li>
+                                        <li><span><i class="fa fa-star"></i></span></li>
+                                        <li><span><i class="fa fa-star"></i></span></li>
+                                        <li><span><i class="fa fa-star"></i></span></li>
+                                    </ul>
+                                    
+                                    <blockquote> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad.		
+                                    <small>Andrew</small>
+                                    </blockquote>
+                                </div><!-- end reviewer-text -->
+    
+                                <div class="reviewer-img">
+                                    <img src="images/reviewer-2.jpg" alt="reviewer-image" class="img-circle">
+                                </div><!-- end reviewer-img -->
+                            </div><!-- end review-block -->
+                        </div><!-- end item -->
+    
+                        <div class="item">
+                            <div class="review-block">									
+                                <div class="reviewer-text">
+                                    <ul class="list-unstyled list-inline star-rating">
+                                        <li><span><i class="fa fa-star"></i></span></li>
+                                        <li><span><i class="fa fa-star"></i></span></li>
+                                        <li><span><i class="fa fa-star"></i></span></li>
+                                        <li><span><i class="fa fa-star"></i></span></li>
+                                        <li><span><i class="fa fa-star"></i></span></li>
+                                    </ul>
+                                    
+                                    <blockquote> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad.		
+                                    <small>Andrew</small>
+                                    </blockquote>
+                                </div><!-- end reviewer-text -->
+    
+                                <div class="reviewer-img">
+                                    <img src="images/reviewer-3.jpg" alt="reviewer-image" class="img-circle">
+                                </div><!-- end reviewer-img -->
+                            </div><!-- end review-block -->
+                        </div><!-- end item -->
+                        
+                        <div class="item">
+                            <div class="review-block">									
+                                <div class="reviewer-text">
+                                    <ul class="list-unstyled list-inline star-rating">
+                                        <li><span><i class="fa fa-star"></i></span></li>
+                                        <li><span><i class="fa fa-star"></i></span></li>
+                                        <li><span><i class="fa fa-star"></i></span></li>
+                                        <li><span><i class="fa fa-star"></i></span></li>
+                                        <li><span><i class="fa fa-star"></i></span></li>
+                                    </ul>
+                                    
+                                    <blockquote> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad.		
+                                    <small>Andrew</small>
+                                    </blockquote>
+                                </div><!-- end reviewer-text -->
+    
+                                <div class="reviewer-img">
+                                    <img src="images/reviewer-4.jpg" alt="reviewer-image" class="img-circle">
+                                </div><!-- end reviewer-img -->
+                            </div><!-- end review-block -->
+                        </div><!-- end item -->
+                        
+                    </div><!-- end owl-testimonial -->
+                </div><!-- end container-fluid -->
+            </section><!-- end testimonial -->
             
             
             <!--=============== FOOTER ===============-->
@@ -506,16 +704,19 @@
                 </div><!-- end container-fluid -->
             </section><!-- end footer -->
             
-        </div><!-- end canvas -->
-        
-            
+		</div><!-- end canvas -->
+           
+           
    		<!-- Page Scripts Starts -->
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
         <script src="js/custom-navigation.js"></script>
+        <script src="js/custom-flex.js"></script>
+        <script src="js/custom-owl.js"></script>
+        <script src="js/index.js"></script>
         <!-- Page Scripts Ends -->
     
     </body>
-
-
 </html>
