@@ -1,84 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27afdfb8-510d-4003-84d7-51de8688f138" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/www.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/my_orders.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webfonts/fa-brands-400d41d.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webfonts/fa-regular-400d41d.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webfonts/fa-solid-900d41d.eot" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/loader-orange.gif" afterPath="$PROJECT_DIR$/images/loader-orange.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webfonts/fa-brands-400.eot" afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webfonts/fa-brands-400.ttf" afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webfonts/fa-brands-400.woff" afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webfonts/fa-brands-400.woff2" afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webfonts/fa-regular-400.eot" afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webfonts/fa-regular-400.ttf" afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webfonts/fa-regular-400.woff" afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webfonts/fa-regular-400.woff2" afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webfonts/fa-solid-900.eot" afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webfonts/fa-solid-900.ttf" afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webfonts/fa-solid-900.woff" afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webfonts/fa-solid-900.woff2" afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="27afdfb8-510d-4003-84d7-51de8688f138" name="Default" comment="new version">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/image-profil.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/loader-orange__old.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/4reara.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/add-complaint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/complaints.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config_old_13-6-2018.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/fontawesome-all2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/delegate-orders.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/complaints.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/delegate_orders.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/order-chats.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/single-complaint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/single_delegate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-orders.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/single-complaint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/single-delegate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/single-order-chats.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/single-order.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_uploade_2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bakery.html" afterPath="$PROJECT_DIR$/bakery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-detail.html" afterPath="$PROJECT_DIR$/blog-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog.html" afterPath="$PROJECT_DIR$/blog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout.html" afterPath="$PROJECT_DIR$/checkout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chef.html" afterPath="$PROJECT_DIR$/chef.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coffee.html" afterPath="$PROJECT_DIR$/coffee.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fontawesome-all.min.css" afterPath="$PROJECT_DIR$/css/fontawesome-all.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit-profile.html" afterPath="$PROJECT_DIR$/edit-profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/error-page.html" afterPath="$PROJECT_DIR$/error-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forget-password.html" afterPath="$PROJECT_DIR$/forget-password.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery-1-column.html" afterPath="$PROJECT_DIR$/gallery-1-column.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery-2-columns.html" afterPath="$PROJECT_DIR$/gallery-2-columns.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/footer.html" afterPath="$PROJECT_DIR$/include/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/fullscr_nav.html" afterPath="$PROJECT_DIR$/include/fullscr_nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/header.html" afterPath="$PROJECT_DIR$/include/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/shopping_cart.html" afterPath="$PROJECT_DIR$/include/shopping_cart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/side_nav.html" afterPath="$PROJECT_DIR$/include/side_nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/user_profile_sidebar.html" afterPath="$PROJECT_DIR$/include/user_profile_sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index__.html" afterPath="$PROJECT_DIR$/index__.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/map.js" afterPath="$PROJECT_DIR$/js/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/my_orders.js" afterPath="$PROJECT_DIR$/js/my_orders.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/other.js" afterPath="$PROJECT_DIR$/js/other.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/parcel.js" afterPath="$PROJECT_DIR$/js/parcel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/service.js" afterPath="$PROJECT_DIR$/js/service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/service_location.js" afterPath="$PROJECT_DIR$/js/service_location.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/map.html" afterPath="$PROJECT_DIR$/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/menu-detail.html" afterPath="$PROJECT_DIR$/menu-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/menu-grid.html" afterPath="$PROJECT_DIR$/menu-grid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/menu-list.html" afterPath="$PROJECT_DIR$/menu-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order-history.html" afterPath="$PROJECT_DIR$/order-history.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other.html" afterPath="$PROJECT_DIR$/other.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parcel.html" afterPath="$PROJECT_DIR$/parcel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parcel_delivery_place.html" afterPath="$PROJECT_DIR$/parcel_delivery_place.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parcel_place_of_delivery.html" afterPath="$PROJECT_DIR$/parcel_place_of_delivery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizza.html" afterPath="$PROJECT_DIR$/pizza.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.html" afterPath="$PROJECT_DIR$/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reservation.html" afterPath="$PROJECT_DIR$/reservation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reset-password.html" afterPath="$PROJECT_DIR$/reset-password.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service.html" afterPath="$PROJECT_DIR$/service.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service_location.html" afterPath="$PROJECT_DIR$/service_location.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services.html" afterPath="$PROJECT_DIR$/services.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping-cart.html" afterPath="$PROJECT_DIR$/shopping-cart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_uploade.html" afterPath="$PROJECT_DIR$/test_uploade.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_uploade___.html" afterPath="$PROJECT_DIR$/test_uploade___.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testimonials.html" afterPath="$PROJECT_DIR$/testimonials.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-profile.html" afterPath="$PROJECT_DIR$/user-profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webfonts/fa-brands-400.svg" afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webfonts/fa-regular-400.svg" afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webfonts/fa-solid-900.svg" afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.svg" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,11 +54,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="blog.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48576513">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.153846">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.34875444">
+              <caret line="17" column="47" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -174,6 +138,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -252,16 +230,25 @@
       <option name="number" value="Default" />
       <updated>1529263496640</updated>
     </task>
+    <task id="LOCAL-00001" summary="new version">
+      <created>1529264948323</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1529264948323</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -272,13 +259,16 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new version" />
+    <option name="LAST_COMMIT_MESSAGE" value="new version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -287,8 +277,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48576513">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state vertical-scroll-proportion="-11.153846">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34875444">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="47" />
           <folding />
         </state>
       </provider>
