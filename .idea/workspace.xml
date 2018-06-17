@@ -1,38 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27afdfb8-510d-4003-84d7-51de8688f138" name="Default" comment="new version">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/image-profil.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/loader-orange__old.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/4reara.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/add-complaint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/complaints.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config_old_13-6-2018.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/fontawesome-all2.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/purple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/delegate-orders.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/complaints.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/delegate_orders.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lang.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/order-chats.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/order.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/single-complaint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/single_delegate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-orders.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/single-complaint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/single-delegate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/single-order-chats.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/single-order.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_uploade_2.html" />
+    <list default="true" id="27afdfb8-510d-4003-84d7-51de8688f138" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lang.js" afterPath="$PROJECT_DIR$/js/lang.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lang/ar.js" afterPath="$PROJECT_DIR$/lang/ar.js" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,9 +41,78 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34875444">
-              <caret line="17" column="47" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.41463414">
+              <caret line="22" column="65" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="65" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.035714">
+              <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!block;n#updateStatusCallback#0" expanded="false" />
+                <element signature="e#6888#7199#0" expanded="false" />
+                <element signature="e#8830#10719#0" expanded="false" />
+                <element signature="e#10756#10802#0" expanded="false" />
+                <element signature="e#10880#12276#0" expanded="false" />
+                <element signature="e#12301#12802#0" expanded="false" />
+                <element signature="e#12854#14439#0" expanded="false" />
+                <element signature="e#14476#14519#0" expanded="false" />
+                <element signature="e#14527#15032#0" expanded="false" />
+                <element signature="e#15086#15196#0" expanded="false" />
+                <element signature="e#15249#15325#0" expanded="false" />
+                <element signature="e#15392#16183#0" expanded="false" />
+                <element signature="e#16267#16726#0" expanded="false" />
+                <element signature="e#16811#16871#0" expanded="false" />
+                <element signature="e#16925#16982#0" expanded="false" />
+                <marker date="1529269999486" expanded="true" signature="39327:39337" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-orders.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-orders.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.1923075">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lang.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/lang.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lang/en.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lang/ar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.7586207">
+              <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+              <folding>
+                <element signature="e#1348#2732#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,6 +126,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/blog.html" />
+        <option value="$PROJECT_DIR$/js/lang.js" />
+        <option value="$PROJECT_DIR$/lang/ar.js" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -151,7 +198,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="lang" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -236,14 +283,20 @@
       <option name="project" value="LOCAL" />
       <updated>1529264948323</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new version">
+      <created>1529266750091</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1529266750091</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -271,7 +324,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="new version" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -283,10 +338,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my-orders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lang.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/ar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7586207">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+          <folding>
+            <element signature="e#1348#2732#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.035714">
+          <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#updateStatusCallback#0" expanded="false" />
+            <element signature="e#6888#7199#0" expanded="false" />
+            <element signature="e#8830#10719#0" expanded="false" />
+            <element signature="e#10756#10802#0" expanded="false" />
+            <element signature="e#10880#12276#0" expanded="false" />
+            <element signature="e#12301#12802#0" expanded="false" />
+            <element signature="e#12854#14439#0" expanded="false" />
+            <element signature="e#14476#14519#0" expanded="false" />
+            <element signature="e#14527#15032#0" expanded="false" />
+            <element signature="e#15086#15196#0" expanded="false" />
+            <element signature="e#15249#15325#0" expanded="false" />
+            <element signature="e#15392#16183#0" expanded="false" />
+            <element signature="e#16267#16726#0" expanded="false" />
+            <element signature="e#16811#16871#0" expanded="false" />
+            <element signature="e#16925#16982#0" expanded="false" />
+            <marker date="1529269999486" expanded="true" signature="39327:39337" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34875444">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.41463414">
+          <caret line="22" column="65" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="65" />
           <folding />
         </state>
       </provider>

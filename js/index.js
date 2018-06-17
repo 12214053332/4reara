@@ -6,9 +6,11 @@ window.sessionStorage.removeItem("key"); //Remove Item
 window.sessionStorage.clear();//Clear storage
 */
 //  window.sessionStorage.clear();\
+/*
   var imported = document.createElement('script');
  imported.src = 'js/lang.js';
     document.head.appendChild(imported);
+*/
 
 $(document).ready(function () {
     if (localStorage.getItem("lang") == "ar") {
@@ -29,19 +31,8 @@ $("#lang").on('change', function () {
     location.reload();
 
 });
-function translate(){
-$("[trans-lang-html]").each(function () {
-    console.log(strings[$(this).attr('trans-lang-html')]);
-    $(this).html(strings[$(this).attr('trans-lang-html')]);
-    $(this).removeAttr('trans-lang-html')
-})
-$("[trans-lang-placeholder]").each(function () {
-    console.log(strings[$(this).attr('trans-lang-placeholder')]);
-    $(this).attr('placeholder', strings[$(this).attr('trans-lang-placeholder')]);
-    $(this).removeAttr('trans-lang-placeholder')
-});
-}
-translate();
+
+
         
 var userData = window.sessionStorage.getItem("userData");
 if(userData){
@@ -99,7 +90,7 @@ function includeHTML() {
             }
             xhttp.open("GET", file, true);
             xhttp.send();
-            translate();
+            //translate();
 //            elmnt.find($("[trans-lang-html]").each(function () {
 //                console.log(strings[$(this).attr('trans-lang-html')]);
 //                $(this).html(strings[$(this).attr('trans-lang-html')]);
@@ -206,6 +197,7 @@ function updateStatusCallback(response) {
     }
 }
 function onDeviceReady() {
+   // translate();
     if(userData){
         $("#logoutMenu").removeClass('hidden');
         console.log(userData);
@@ -221,6 +213,18 @@ function onDeviceReady() {
 
    // console.log("start get location ");
     navigator.geolocation.getCurrentPosition(onSuccess, onError);
+
+    cordova.plugins.photoLibrary.getLibrary(function (library) {
+        // Here we have the library as array
+        cordova.plugins.photoLibrary.getThumbnailUrl(library[0],
+            function (thumbnailUrl) { image.src = thumbnailUrl; },
+            function (err) { console.log('Error occured'); },
+            {
+                thumbnailWidth: 512,
+                thumbnailHeight: 384,
+                quality: 0.8
+            });
+    });
 
 //    cordova.plugins.locationAccuracy.canRequest(function(canRequest){
 //        if(canRequest){
