@@ -26,7 +26,7 @@
             options.chunkedMode = false;
 
             var ft = new FileTransfer();
-            ft.upload(imageURI, "http://adsonline.al-moasher.net/upload.php", function(result){
+            ft.upload(imageURI, "http://192.168.1.4/phonegap/upload/upload.php", function(result){
                 console.log(JSON.stringify(result));
             }, function(error){
                 console.log(JSON.stringify(error));
