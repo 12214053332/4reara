@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="27afdfb8-510d-4003-84d7-51de8688f138" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.7259787">
-              <caret line="24" column="99" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="99" />
+              <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -375,7 +374,13 @@
       <option name="project" value="LOCAL" />
       <updated>1529344464875</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="new version">
+      <created>1529344621164</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1529344621164</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -583,7 +588,7 @@
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7259787">
-          <caret line="24" column="99" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="99" />
+          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
           <folding />
         </state>
       </provider>
