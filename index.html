@@ -16,72 +16,15 @@
         <link rel="stylesheet" href="css/style.css">
         <!--<link rel="stylesheet" href="css/orange.css">-->
         <link rel="stylesheet" href="css/purple.css">
-        <script src="js/jquery.min.js"></script>
         <link rel="stylesheet" href="js/header-script.js">
-        <script src="js/lang.js"></script>
-        <script src="lang/ar.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
-        <script type='text/javascript'>
-
-            $(document).ready(function(){
-
-                // take picture from camera
-                $('#but_take').click(function(){
-                    navigator.camera.getPicture(onSuccess, onFail, { quality: 20,
-                        destinationType: Camera.DestinationType.FILE_URL
-                    });
-                });
-
-                // upload select
-                $("#but_select").click(function(){
-                    navigator.camera.getPicture(onSuccess, onFail, { quality: 50,
-                        sourceType: Camera.PictureSourceType.PHOTOLIBRARY,
-                        allowEdit: true,
-                        destinationType: Camera.DestinationType.FILE_URI
-                    });
-                });
-
-                // Change image source and upload photo to server
-                function onSuccess(imageURI) {
-                    // Set image source
-                    var image = document.getElementById('img');
-                    image.src = imageURI  + '?' + Math.random();
-
-                    var options = new FileUploadOptions();
-                    options.fileKey = "file";
-                    options.fileName = imageURI.substr(imageURI.lastIndexOf('/') + 1);
-                    options.mimeType = "image/jpeg";
-
-                    var params = {};
-                    params.value1 = "test";
-                    params.value2 = "param";
-
-                    options.params = params;
-                    options.chunkedMode = false;
-
-                    var ft = new FileTransfer();
-                    ft.upload(imageURI, "http://demo.makitweb.com/phonegap_camera/upload.php", function(result){
-                        alert('successfully uploaded ' + result.response);
-                    }, function(error){
-                        alert('error : ' + JSON.stringify(error));
-                    }, options);
-                }
-                function onFail(message) {
-                    alert('Failed because: ' + message);
-                }
-            });
-        </script>
+<style >
+    #usr-side-open{
+        display: none !important;
+    }
+</style>
     </head>
     <body class="page-body">
-
-    <div style="margin:0 auto; width:30%!important;text-align: center;">
-        <img src="img/log11.png" id='img' style="width: 100px; height: 100px;">
-    </div><br/>
-
-    <div style="width:100%; text-align:center; padding:10px;">
-        <button id='but_take'>Take photo</button>
-        <button id='but_select'>Select photo from Gallery</button>
-    </div>
         <!--====== LOADER =====-->
         <div class="loader"></div>
         <!--============ SIDE-NAV =============-->
@@ -110,11 +53,11 @@
             <!--=================== PAGE-WRAPPER ================-->
             <section class="page-wrapper innerpage-section-padding">
                 <div id="login-page" >
-                    <select id="lang">
+                  <!--  <select id="lang">
                         <option value="">select lang</option>
-                        <option value="en">en</option>
-                        <option value="ar">arrr</option>
-                    </select>
+                        <option value="en">English</option>
+                        <option value="ar">عربي</option>
+                    </select>-->
                     <div class="container-fluid text-center">
                         <div class="innerpage-heading">
                             <h3 trans-lang-html="login"></h3>
@@ -139,7 +82,7 @@
                         <!--<div id="map" style="height: 500px"></div>-->
                         <div class="form-page-links">
                             <!--<a href="forget-password.html">Forgot Password ?</a>-->
-                            <p > <a href="register.html" trans-lang-html="register_now"></a></p>
+                            <p > <a href="register.html" trans-lang-html="register_now"></a> <span trans-lang-html="new_here"></span></p>
                         </div><!-- end form-page-links -->
                     </div><!-- end container-fluid -->
                 </div><!-- end login-page -->
@@ -149,7 +92,7 @@
             <!-- end footer -->
         </div><!-- end canvas -->
         <!-- Page Scripts Starts -->
-
+        <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/custom-navigation.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQEddaDk0teVRCde15IqYQrrl0vMilKXo"></script>

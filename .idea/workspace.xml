@@ -1,9 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27afdfb8-510d-4003-84d7-51de8688f138" name="Default" comment="">
+    <list default="true" id="27afdfb8-510d-4003-84d7-51de8688f138" name="Default" comment="new version">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/delegate-ratings.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/delegate_ratings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/edit_profile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/my_account.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/ar.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/en.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add-complaint.html" afterPath="$PROJECT_DIR$/add-complaint.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bakery.html" afterPath="$PROJECT_DIR$/bakery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-detail.html" afterPath="$PROJECT_DIR$/blog-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog.html" afterPath="$PROJECT_DIR$/blog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout.html" afterPath="$PROJECT_DIR$/checkout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chef.html" afterPath="$PROJECT_DIR$/chef.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coffee.html" afterPath="$PROJECT_DIR$/coffee.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/complaints.html" afterPath="$PROJECT_DIR$/complaints.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config_old_13-6-2018.xml" afterPath="$PROJECT_DIR$/config_old_13-6-2018.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/AjaxLoader.html" afterPath="$PROJECT_DIR$/css/AjaxLoader.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/datepicker.css" afterPath="$PROJECT_DIR$/css/datepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/flexslider.css" afterPath="$PROJECT_DIR$/css/flexslider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fontawesome-all.min.css" afterPath="$PROJECT_DIR$/css/fontawesome-all.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fontawesome-all2.min.css" afterPath="$PROJECT_DIR$/css/fontawesome-all2.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/flexslider-icon-2.html" afterPath="$PROJECT_DIR$/css/fonts/flexslider-icon-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/flexslider-icon-3.html" afterPath="$PROJECT_DIR$/css/fonts/flexslider-icon-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/flexslider-icon-4.html" afterPath="$PROJECT_DIR$/css/fonts/flexslider-icon-4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/flexslider-icon.html" afterPath="$PROJECT_DIR$/css/fonts/flexslider-icon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/flexslider-icond41d.html" afterPath="$PROJECT_DIR$/css/fonts/flexslider-icond41d.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/grabbing.html" afterPath="$PROJECT_DIR$/css/grabbing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/lightslider.css" afterPath="$PROJECT_DIR$/css/lightslider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/magnific-popup.css" afterPath="$PROJECT_DIR$/css/magnific-popup.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/orange.css" afterPath="$PROJECT_DIR$/css/orange.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/owl.carousel.css" afterPath="$PROJECT_DIR$/css/owl.carousel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/owl.theme.css" afterPath="$PROJECT_DIR$/css/owl.theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/purple.css" afterPath="$PROJECT_DIR$/css/purple.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delegate-orders.html" afterPath="$PROJECT_DIR$/delegate-orders.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit-profile.html" afterPath="$PROJECT_DIR$/edit-profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/error-page.html" afterPath="$PROJECT_DIR$/error-page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular-2.html" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular-3.html" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular-4.html" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular-4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular-5.html" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular-5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.html" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regulard41d.html" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regulard41d.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forget-password.html" afterPath="$PROJECT_DIR$/forget-password.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery-1-column.html" afterPath="$PROJECT_DIR$/gallery-1-column.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery-2-columns.html" afterPath="$PROJECT_DIR$/gallery-2-columns.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/controls.html" afterPath="$PROJECT_DIR$/img/controls.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/footer.html" afterPath="$PROJECT_DIR$/include/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/fullscr_nav.html" afterPath="$PROJECT_DIR$/include/fullscr_nav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/header.html" afterPath="$PROJECT_DIR$/include/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/shopping_cart.html" afterPath="$PROJECT_DIR$/include/shopping_cart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/side_nav.html" afterPath="$PROJECT_DIR$/include/side_nav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/user_profile_sidebar.html" afterPath="$PROJECT_DIR$/include/user_profile_sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index__.html" afterPath="$PROJECT_DIR$/index__.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/js/bootstrap-datepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/complaints.js" afterPath="$PROJECT_DIR$/js/complaints.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom-date-picker.js" afterPath="$PROJECT_DIR$/js/custom-date-picker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom-flex.js" afterPath="$PROJECT_DIR$/js/custom-flex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom-gallery.js" afterPath="$PROJECT_DIR$/js/custom-gallery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom-lightslider.js" afterPath="$PROJECT_DIR$/js/custom-lightslider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom-navigation.js" afterPath="$PROJECT_DIR$/js/custom-navigation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom-navigation_old.js" afterPath="$PROJECT_DIR$/js/custom-navigation_old.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom-owl.js" afterPath="$PROJECT_DIR$/js/custom-owl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/delegate_orders.js" afterPath="$PROJECT_DIR$/js/delegate_orders.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/infobox.js" afterPath="$PROJECT_DIR$/js/infobox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.flexslider.js" afterPath="$PROJECT_DIR$/js/jquery.flexslider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.magnific-popup.min.js" afterPath="$PROJECT_DIR$/js/jquery.magnific-popup.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.min.js" afterPath="$PROJECT_DIR$/js/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.validate.min.js" afterPath="$PROJECT_DIR$/js/jquery.validate.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lang.js" afterPath="$PROJECT_DIR$/js/lang.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lightslider.js" afterPath="$PROJECT_DIR$/js/lightslider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/login.js" afterPath="$PROJECT_DIR$/js/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/map.js" afterPath="$PROJECT_DIR$/js/map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/markerwithlabel.js" afterPath="$PROJECT_DIR$/js/markerwithlabel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/my_orders.js" afterPath="$PROJECT_DIR$/js/my_orders.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/order-chats.js" afterPath="$PROJECT_DIR$/js/order-chats.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/order.js" afterPath="$PROJECT_DIR$/js/order.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/other.js" afterPath="$PROJECT_DIR$/js/other.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/owl.carousel.min.js" afterPath="$PROJECT_DIR$/js/owl.carousel.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/parcel.js" afterPath="$PROJECT_DIR$/js/parcel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/register.js" afterPath="$PROJECT_DIR$/js/register.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/service.js" afterPath="$PROJECT_DIR$/js/service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/service_location.js" afterPath="$PROJECT_DIR$/js/service_location.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services.js" afterPath="$PROJECT_DIR$/js/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/single-complaint.js" afterPath="$PROJECT_DIR$/js/single-complaint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/single_delegate.js" afterPath="$PROJECT_DIR$/js/single_delegate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/map.html" afterPath="$PROJECT_DIR$/map.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/menu-detail.html" afterPath="$PROJECT_DIR$/menu-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/menu-grid.html" afterPath="$PROJECT_DIR$/menu-grid.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/menu-list.html" afterPath="$PROJECT_DIR$/menu-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-orders.html" afterPath="$PROJECT_DIR$/my-orders.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order-history.html" afterPath="$PROJECT_DIR$/order-history.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other.html" afterPath="$PROJECT_DIR$/other.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parcel.html" afterPath="$PROJECT_DIR$/parcel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parcel_delivery_place.html" afterPath="$PROJECT_DIR$/parcel_delivery_place.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parcel_place_of_delivery.html" afterPath="$PROJECT_DIR$/parcel_place_of_delivery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizza.html" afterPath="$PROJECT_DIR$/pizza.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.html" afterPath="$PROJECT_DIR$/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reservation.html" afterPath="$PROJECT_DIR$/reservation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reset-password.html" afterPath="$PROJECT_DIR$/reset-password.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service.html" afterPath="$PROJECT_DIR$/service.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service_location.html" afterPath="$PROJECT_DIR$/service_location.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services.html" afterPath="$PROJECT_DIR$/services.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping-cart.html" afterPath="$PROJECT_DIR$/shopping-cart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single-complaint.html" afterPath="$PROJECT_DIR$/single-complaint.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single-delegate.html" afterPath="$PROJECT_DIR$/single-delegate.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single-order-chats.html" afterPath="$PROJECT_DIR$/single-order-chats.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single-order.html" afterPath="$PROJECT_DIR$/single-order.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec.html" afterPath="$PROJECT_DIR$/spec.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/helper.js" afterPath="$PROJECT_DIR$/spec/helper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/index.js" afterPath="$PROJECT_DIR$/spec/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/lib/jasmine-1.2.0/MIT.LICENSE" afterPath="$PROJECT_DIR$/spec/lib/jasmine-1.2.0/MIT.LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/lib/jasmine-1.2.0/jasmine-html.js" afterPath="$PROJECT_DIR$/spec/lib/jasmine-1.2.0/jasmine-html.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/lib/jasmine-1.2.0/jasmine.css" afterPath="$PROJECT_DIR$/spec/lib/jasmine-1.2.0/jasmine.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/lib/jasmine-1.2.0/jasmine.js" afterPath="$PROJECT_DIR$/spec/lib/jasmine-1.2.0/jasmine.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_uploade.html" afterPath="$PROJECT_DIR$/test_uploade.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_uploade_2.html" afterPath="$PROJECT_DIR$/test_uploade_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_uploade___.html" afterPath="$PROJECT_DIR$/test_uploade___.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testimonials.html" afterPath="$PROJECT_DIR$/testimonials.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-profile.html" afterPath="$PROJECT_DIR$/user-profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webfonts/fa-brands-400.svg" afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webfonts/fa-regular-400.svg" afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webfonts/fa-solid-900.svg" afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.svg" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +161,7 @@
         <entry file="file://$PROJECT_DIR$/blog.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,11 +171,8 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,8 +180,8 @@
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69572955">
-              <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.36298934">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -62,24 +191,10 @@
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="222" column="36" selection-start-line="222" selection-start-column="36" selection-end-line="222" selection-end-column="36" />
+              <caret line="250" column="5" selection-start-line="250" selection-start-column="5" selection-end-line="250" selection-end-column="5" />
               <folding>
-                <element signature="n#!!block;n#updateStatusCallback#0" expanded="false" />
-                <element signature="e#6888#7199#0" expanded="false" />
-                <element signature="e#8830#10719#0" expanded="false" />
-                <element signature="e#10756#10802#0" expanded="false" />
-                <element signature="e#10880#12276#0" expanded="false" />
-                <element signature="e#12301#12802#0" expanded="false" />
-                <element signature="e#12854#14439#0" expanded="false" />
-                <element signature="e#14476#14519#0" expanded="false" />
-                <element signature="e#14527#15032#0" expanded="false" />
-                <element signature="e#15086#15196#0" expanded="false" />
-                <element signature="e#15249#15325#0" expanded="false" />
-                <element signature="e#15392#16183#0" expanded="false" />
-                <element signature="e#16267#16726#0" expanded="false" />
-                <element signature="e#16811#16871#0" expanded="false" />
-                <element signature="e#16925#16982#0" expanded="false" />
-                <marker date="1529269999486" expanded="true" signature="39327:39337" placeholder="..." />
+                <marker date="1529615788894" expanded="true" signature="321:323" placeholder="/*...*/" />
+                <marker date="1529615788894" expanded="true" signature="47821:47823" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -89,7 +204,7 @@
         <entry file="file://$PROJECT_DIR$/my-orders.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -99,7 +214,7 @@
         <entry file="file://$PROJECT_DIR$/js/lang.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -181,28 +296,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
+              <option name="myItemId" value="www__" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
+              <option name="myItemId" value="www__" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
+              <option name="myItemId" value="www__" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,7 +502,13 @@
       <option name="project" value="LOCAL" />
       <updated>1529344628986</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="new version">
+      <created>1529344883852</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1529344883852</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -396,7 +517,6 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -404,6 +524,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -440,10 +561,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -460,22 +578,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="222" column="36" selection-start-line="222" selection-start-column="36" selection-end-line="222" selection-end-column="36" />
           <folding>
-            <element signature="n#!!block;n#updateStatusCallback#0" expanded="false" />
-            <element signature="e#6888#7199#0" expanded="false" />
-            <element signature="e#8830#10719#0" expanded="false" />
-            <element signature="e#10756#10802#0" expanded="false" />
-            <element signature="e#10880#12276#0" expanded="false" />
-            <element signature="e#12301#12802#0" expanded="false" />
-            <element signature="e#12854#14439#0" expanded="false" />
-            <element signature="e#14476#14519#0" expanded="false" />
-            <element signature="e#14527#15032#0" expanded="false" />
-            <element signature="e#15086#15196#0" expanded="false" />
-            <element signature="e#15249#15325#0" expanded="false" />
-            <element signature="e#15392#16183#0" expanded="false" />
-            <element signature="e#16267#16726#0" expanded="false" />
-            <element signature="e#16811#16871#0" expanded="false" />
-            <element signature="e#16925#16982#0" expanded="false" />
-            <marker date="1529269999486" expanded="true" signature="39327:39337" placeholder="..." />
+            <marker date="1529615788894" expanded="true" signature="321:323" placeholder="/*...*/" />
+            <marker date="1529615788894" expanded="true" signature="47821:47823" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -522,6 +626,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="222" column="36" selection-start-line="222" selection-start-column="36" selection-end-line="222" selection-end-column="36" />
+          <folding>
+            <marker date="1529615788894" expanded="true" signature="321:323" placeholder="/*...*/" />
+            <marker date="1529615788894" expanded="true" signature="47821:47823" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my-orders.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -556,27 +687,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-orders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lang.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/ar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+          <folding>
+            <element signature="e#1348#2732#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="222" column="36" selection-start-line="222" selection-start-column="36" selection-end-line="222" selection-end-column="36" />
+          <caret line="250" column="5" selection-start-line="250" selection-start-column="5" selection-end-line="250" selection-end-column="5" />
           <folding>
-            <element signature="n#!!block;n#updateStatusCallback#0" expanded="false" />
-            <element signature="e#6888#7199#0" expanded="false" />
-            <element signature="e#8830#10719#0" expanded="false" />
-            <element signature="e#10756#10802#0" expanded="false" />
-            <element signature="e#10880#12276#0" expanded="false" />
-            <element signature="e#12301#12802#0" expanded="false" />
-            <element signature="e#12854#14439#0" expanded="false" />
-            <element signature="e#14476#14519#0" expanded="false" />
-            <element signature="e#14527#15032#0" expanded="false" />
-            <element signature="e#15086#15196#0" expanded="false" />
-            <element signature="e#15249#15325#0" expanded="false" />
-            <element signature="e#15392#16183#0" expanded="false" />
-            <element signature="e#16267#16726#0" expanded="false" />
-            <element signature="e#16811#16871#0" expanded="false" />
-            <element signature="e#16925#16982#0" expanded="false" />
-            <marker date="1529269999486" expanded="true" signature="39327:39337" placeholder="..." />
+            <marker date="1529615788894" expanded="true" signature="321:323" placeholder="/*...*/" />
+            <marker date="1529615788894" expanded="true" signature="47821:47823" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -584,18 +743,15 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69572955">
-          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.36298934">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
           <folding />
         </state>
       </provider>
