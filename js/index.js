@@ -253,22 +253,21 @@ function onDeviceReady() {
 
    // console.log("start get location ");
     navigator.geolocation.getCurrentPosition(onSuccess, onError);
+    cordova.plugins.locationAccuracy.canRequest(function(canRequest){
+        if(canRequest){
+            cordova.plugins.locationAccuracy.request(function (success){
+                //console.log("Successfully requested accuracy: "+success.message);
 
-//    cordova.plugins.locationAccuracy.canRequest(function(canRequest){
-//        if(canRequest){
-//            cordova.plugins.locationAccuracy.request(function (success){
-//                //console.log("Successfully requested accuracy: "+success.message);
-//
-//            }, function (error){
-//                //console.error("Accuracy request failed: error code="+error.code+"; error message="+error.message);
-//                if(error.code !== cordova.plugins.locationAccuracy.ERROR_USER_DISAGREED){
-//                    if(window.confirm("Failed to automatically set Location Mode to 'High Accuracy'. Would you like to switch to the Location Settings page and do this manually?")){
-//                        cordova.plugins.diagnostic.switchToLocationSettings();
-//                    }
-//                }
-//            }, cordova.plugins.locationAccuracy.REQUEST_PRIORITY_HIGH_ACCURACY);
-//        }
-//    });
+            }, function (error){
+                //console.error("Accuracy request failed: error code="+error.code+"; error message="+error.message);
+                if(error.code !== cordova.plugins.locationAccuracy.ERROR_USER_DISAGREED){
+                    if(window.confirm("Failed to automatically set Location Mode to 'High Accuracy'. Would you like to switch to the Location Settings page and do this manually?")){
+                        cordova.plugins.diagnostic.switchToLocationSettings();
+                    }
+                }
+            }, cordova.plugins.locationAccuracy.REQUEST_PRIORITY_HIGH_ACCURACY);
+        }
+    });
 
     $(document).on('click',"#fb_login",facebookLogin);
     var registerValidator = $("#register-form").validate({
